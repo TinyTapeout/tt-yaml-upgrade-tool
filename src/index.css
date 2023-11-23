@@ -38,15 +38,21 @@ h2 {
   border-bottom: #282c34 1px solid;
 }
 
-textarea {
-  border: #282c34 1px solid;
-  height: 100%;
-  width: 100%;
-  overflow: auto;
+.file-name {
+  display: inline-block;
+  background-color: #ccc;
+  padding: 4px 8px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
 
-span.file-titles {
-  background: gray;
+textarea {
+  flex: 1;
+  resize: none;
+  border: #ccc 1px solid;
+  overflow: auto;
+  margin-right: 1rem;
+  margin-bottom: 0.75rem;
 }
 
 .error {
