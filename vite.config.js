@@ -7,6 +7,6 @@ export default defineConfig({
   },
 
   plugins: [monacoEditorPlugin.default({
-    languageWorkers: ['editorWorkerService'],
+    languageWorkers: [],
   })],
 });

@@ -5,7 +5,6 @@ import * as monaco from 'monaco-editor';
 import { upgradeProject } from './upgrade.js';
 
 const inputEditor = document.getElementById('input-editor');
-console.log('inputEditor', inputEditor);
 
 const editor = monaco.editor.create(inputEditor!, {
   value: '# Paste your info.yaml content here\n',
