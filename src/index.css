@@ -1,0 +1,56 @@
+/* SPDX-License-Identifier: Apache-2.0 */
+/* SPDX-FileCopyrightText: 2023 Uri Shaked <uri@tinytapeout.com> */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background-color: #282c34;
+  color: white;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin: 1rem;
+  padding: 0;
+}
+
+h2 {
+  font-size: 1.25rem;
+  margin: 0.5rem;
+  padding: 0;
+  text-align: center;
+  border-bottom: #282c34 1px solid;
+}
+
+textarea {
+  border: #282c34 1px solid;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+
+span.file-titles {
+  background: gray;
+}
+
+.error {
+  border-color: red;
+  color: red;
+  font-weight: bold;
+}
