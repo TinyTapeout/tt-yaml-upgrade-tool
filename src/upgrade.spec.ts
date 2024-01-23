@@ -36,7 +36,7 @@ yaml_version: 4
 documentation:
   author:       "Uri Shaked"      # Your name
   title:        "Game of Life 8x32 (siLife)"      # Project title
-  language:     "Verilog" # other examples include Verilog, Amaranth, VHDL, etc
+  language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
   description:  "Silicon implementation of Conway's Game of Life with LED Dot Matrix Output"      # Short description of what your project does
 
 # Longer description of how the project works. You can use standard markdown format.
@@ -117,7 +117,7 @@ project:
   author:       "Uri Shaked"      # Your name
   discord:      "urish"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "Silicon implementation of Conway's Game of Life with LED Dot Matrix Output"      # One line description of what your project does
-  language:     "Verilog" # other examples include Verilog, Amaranth, VHDL, etc
+  language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     10000000       # Clock frequency in Hz (or 0 if not applicable)
 
   # How many tiles your design occupies? A single tile is about 167x108 uM.
@@ -244,7 +244,7 @@ yaml_version: 4
 documentation:
   author:       "Justin Hui"      # Your name
   title:        "Analog Clock"      # Project title
-  language:     "Wokwi" # other examples include Verilog, Amaranth, VHDL, etc
+  language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   description:  "LED controller for an Analog Clock taking a 1Hz internal clk input"      # Short description of what your project does
 
 # Longer description of how the project works. You can use standard markdown format.
@@ -316,7 +316,7 @@ project:
   author:       "Justin Hui"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "LED controller for an Analog Clock taking a 1Hz internal clk input"      # One line description of what your project does
-  language:     "Wokwi" # other examples include Verilog, Amaranth, VHDL, etc
+  language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     1       # Clock frequency in Hz (or 0 if not applicable)
 
   # How many tiles your design occupies? A single tile is about 167x108 uM.

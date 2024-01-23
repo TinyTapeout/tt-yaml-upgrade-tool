@@ -128,7 +128,7 @@ project:${
     discordUser,
   )}      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  ${JSON.stringify(description)}      # One line description of what your project does
-  language:     ${JSON.stringify(language)} # other examples include Verilog, Amaranth, VHDL, etc
+  language:     ${JSON.stringify(language)} # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     ${clockHzSerialized}       # Clock frequency in Hz (or 0 if not applicable)
 
   # How many tiles your design occupies? A single tile is about 167x108 uM.
